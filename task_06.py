@@ -12,11 +12,8 @@ WORDS = FHANDLER.read()
 
 #print WORDS
 
+FHANDLER.close()
+
 WORDCT = len(WORDS.split())
 
 print WORDCT
-
-
-FHANDLER.close()
-
-
