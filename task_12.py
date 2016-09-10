@@ -5,14 +5,14 @@
 import decimal
 import fractions
 
-INTVAL=1
+INTVAL = 1
 print INTVAL
 
-FLOATVAL=0.1
+FLOATVAL = 0.1
 print FLOATVAL
 
-DECVAL=decimal.Decimal('0.1')
+DECVAL = decimal.Decimal('0.1')
 print DECVAL
 
-FRACVAL=fractions.Fraction(1,10)
+FRACVAL = fractions.Fraction(1, 10)
 print FRACVAL
